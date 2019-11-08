@@ -29,6 +29,7 @@ namespace SampleAPI.Controllers
             return lstStudent;
         }
 
+        //menambahkan post
         [HttpPost]
         public IActionResult Post(Student student)
         {
